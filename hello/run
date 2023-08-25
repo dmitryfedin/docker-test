@@ -1,0 +1,2 @@
+docker build . -t work:0.1
+docker run --name hellopy -d work:0.1

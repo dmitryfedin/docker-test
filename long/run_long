@@ -1,0 +1,2 @@
+docker build . -t long:0.1
+docker run -d --name longpy long:0.1
