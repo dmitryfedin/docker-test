@@ -1,0 +1,3 @@
+sudo docker run --mount src=/srv,dst=/host/srv,type=bind --name storage_1 --rm -it ubuntu:18.04 /bin/bash
+# ls /host/srv/
+# on host: ls /srv/

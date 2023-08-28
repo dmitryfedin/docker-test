@@ -1,0 +1,1 @@
+sudo docker run --volumes-from slurm --name backup --rm -it ubuntu:18.04 /bin/bash

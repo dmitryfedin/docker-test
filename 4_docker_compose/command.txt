@@ -1,0 +1,7 @@
+docker-compose build сборка
+		up-d запуска
+		down останвока
+		logs -f [service name] логи сервиса
+		ps список контенров
+		exec [service name] [/bin/bash] выполнить команду
+		images образы

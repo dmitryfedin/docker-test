@@ -1,0 +1,3 @@
+sudo docker run --mount src=/srv,dst=/host/srv,type=bind --mount src=slurm-storage,dst=/data --name slurm -it ubuntu:18.04 /bin/bash
+# ls /host/srv/
+# cat /data/file

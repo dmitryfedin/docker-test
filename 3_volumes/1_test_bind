@@ -1,0 +1,5 @@
+sudo docker run --rm --mount src=storage_1,dst=/data -it ubuntu:18.04 /bin/bash
+# echo 12345 > /data/file
+# exit
+# run again 
+# cat /data/file

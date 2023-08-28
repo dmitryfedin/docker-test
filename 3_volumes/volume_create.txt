@@ -1,0 +1,3 @@
+sudo docker voulme create storage_1
+docker volumes ls
+docker inspect storage_1
