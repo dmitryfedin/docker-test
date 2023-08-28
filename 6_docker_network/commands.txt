@@ -1,0 +1,10 @@
+sudo apt install bridge-utils -y
+
+# network
+brctl show
+
+# full info 
+sudo docker network inspect bridge
+
+# check net
+sudo docker attach alpine

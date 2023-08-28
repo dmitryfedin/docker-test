@@ -1,0 +1,10 @@
+sudo apt-get install containerd
+
+sudo ctr image pull docker.io/library/nginx:latest
+
+sudo ctr run -d docker.io/library/nginx:latest ctrnginx
+
+ctr task  exec -exec-id 1007 ctrnginx curl 127.0.0.1
+
+ctr container ls
+
